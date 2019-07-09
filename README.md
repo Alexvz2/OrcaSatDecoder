@@ -29,9 +29,9 @@ To decode we will have to convert a NRZI signal to a bit sequence.
 - FCS: for error correction/detection they are the checksum to determine the integrity of the packet.
 
 ### Frame Structure:
-Flag|Dest. Addr| Src. Addr.| Digipeter Addr.| Control Field| ID| Information Field| FCS| Flag|
---- | --- | --- | --- | --- | ---| --- | --- | --- | --- |
-1   |   7      | 7         | 56             | 1            |  1| 256              | 2  | 1   |
+|Flag|Dest. Addr| Src. Addr.| Digipeter Addr.| Control Field| ID| Information Field| FCS| Flag|
+| :---:  | :---:  | :---:  | :---:  | :---:  | :---:  :---:  | :---:  | :---:  | :---:  |
+|1   |   7      | 7         | 56             | 1            |  1| 256              | 2  | 1   |
 
 
 ### Task List:
