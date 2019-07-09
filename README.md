@@ -30,7 +30,7 @@ To decode we will have to convert a NRZI signal to a bit sequence.
 
 ### Frame Structure:
 |Flag|Dest. Addr| Src. Addr.| Digipeter Addr.| Control Field| ID| Information Field| FCS| Flag|
-| :---:  | :---:  | :---:  | :---:  | :---:  | :---:  :---:  | :---:  | :---:  | :---:  |
+| :---:  | :---:  | :---:  | :---:  | :---:  | :---:   | :---:  | :---:  | :---:  |
 |1   |   7      | 7         | 56             | 1            |  1| 256              | 2  | 1   |
 
 
