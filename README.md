@@ -1,5 +1,5 @@
 # OrcaSatDecoder AX.25 
-## OrcaSat Ground Station telemetry Decoder for Elec400s Course in UBC
+OrcaSat Ground Station telemetry Decoder for Elec400s @ UBC
 ### GroundStation and Signal Specs:
 
 - Frequency: 433Mhz
@@ -28,12 +28,13 @@ To decode we will have to convert a NRZI signal to a bit sequence.
 
 - FCS: for error correction/detection they are the checksum to determine the integrity of the packet.
 
-#### Frame Structure:
+### Frame Structure:
 Flag|Dest. Addr| Src. Addr.| Digipeter Addr.| Control Field| ID| Information Field| FCS| Flag|
+--- | --- | --- | --- | --- | ---| --- | --- | --- | --- |
 1   |   7      | 7         | 56             | 1            |  1| 256              | 2  | 1   |
 
 
-#### Task List:
+### Task List:
 - [x] AX.25 stream - BistreamGenerator.py
 - [ ] Helper Functions - helperLib.py
 - [ ] Decode Sample - decoderMain.py
@@ -44,7 +45,7 @@ Flag|Dest. Addr| Src. Addr.| Digipeter Addr.| Control Field| ID| Information Fie
 - [ ] CubeSat Live Test.
 
 
-#### Sources:
+### Sources:
 - https://www.tapr.org/pub_ax25.html
 - http://n1vg.net/packet/
 
