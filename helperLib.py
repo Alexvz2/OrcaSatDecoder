@@ -7,7 +7,7 @@
 # Purpose: Converts a standard stream of bits to NRZI
 # Input: Standard Bit Array Stream
 # Output: bitarray representing '0's as change and 1's as unchanged.
-def NRZ2NRZI(NRZ)
+def NRZ2NRZI(NRZ):
     NRZI = NRZ.copy()
     current = True
     for n in range(0,len(NRZ)):
