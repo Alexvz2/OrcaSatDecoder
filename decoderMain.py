@@ -4,7 +4,4 @@
 
 
 def _decode():
-    for endian, description in zip(
-        ["<", ">"], ['little endian', 'Big endian']
-    )
     return void;
