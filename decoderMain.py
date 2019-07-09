@@ -2,8 +2,9 @@
 # Written By Alex V and Alex H.
 # 2019/07/04
 
-import struct
-import binascii
-import sys
-from colllections import orderedDict
 
+def _decode():
+    for endian, description in zip(
+        ["<", ">"], ['little endian', 'Big endian']
+    )
+    return void;
