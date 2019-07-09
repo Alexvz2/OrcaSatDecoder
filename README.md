@@ -1,6 +1,6 @@
 ### OrcaSatDecoder AX.25 
-# OrcaSat Ground Station telemetry Decoder for Elec400s Course in UBC
-GroundStation and Signal Specs:
+## OrcaSat Ground Station telemetry Decoder for Elec400s Course in UBC
+# GroundStation and Signal Specs:
 
 - Frequency: 433Mhz
 
